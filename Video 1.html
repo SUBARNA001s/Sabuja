@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video controls>
+                <source src="Video/1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <div class="video-info">
+            <h1>Video Title</h1>
+            <div class="actions">
+                <button id="likeButton">👍 Like</button>
+                <button id="shareButton">🔗 Share</button>
+            </div>
+        </div>
+        
+        <div class="comment-section">
+            <h2>Comments</h2>
+            <div id="comments">
+                <!-- Comments will be inserted here -->
+            </div>
+            <div class="post-comment">
+                <textarea id="commentText" placeholder="Add a public comment..."></textarea>
+                <button id="postCommentButton">Post</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #f9f9f9;
+    padding-left: 10%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 20px;
+}
+
+.video-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+}
+
+.video-info {
+    padding: 10px;
+}
+
+.video-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.video-info p {
+    color: #606060;
+    font-size: 14px;
+    margin: 5px 0;
+}
